@@ -1,0 +1,72 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+body{
+   
+    background: linear-gradient(  #280a5f, #240380, #000000);
+}
+
+.login-block {
+    width: 100%;
+    padding: 100px 700px;
+}
+
+.login-sec {
+    padding: 50px 30px;
+    position: absolute;
+    width: 500px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK1Y__spnj7GWym2qzQoDbPz0WF6EIZF7B3g&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    box-shadow: 15px 20px 0px rgba(57, 3, 118, 0.501);
+    color: #fff;
+}
+
+.login-sec .copy-text {
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+   
+}
+
+.login-sec .copy-text i {
+    color:  #fff;
+}
+
+.login-sec .copy-text a {
+    color:  #fff;
+}
+
+.login-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color:  #ffffff;
+}
+
+.login-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-login {
+    background: #3c008b;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-login a{
+
+    color: #fff;
+    
+}
+
